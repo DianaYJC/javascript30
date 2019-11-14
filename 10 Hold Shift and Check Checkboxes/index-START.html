@@ -6,6 +6,46 @@
 </head>
 <body>
   <style>
+    *{
+      font-family: sans-serif;
+      font-weight: lighter;
+      background: #ffc600;
+    }
+    body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .inbox{
+      max-width: 300px;
+      border-radius: 5px;
+      box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+      /* border-radius:30rem; */
+    }
+ 
+  
+    p{
+      margin:0rem;  
+      padding: 1rem .5rem;   
+      background:white;
+      border-left: 1px solid #F1F1F1;
+    }
+    
+    input[type="checkbox"]{
+      margin:20px;
+    }
+
+    .item{
+      display:flex;
+      justify-items: center;
+      background:white;
+      border-bottom: 1px solid #F1F1F1;
+    }
+    input:checked + p {
+      background: #F9F9F9;
+      text-decoration: line-through;
+    }
+  
 
   </style>
    <!--
