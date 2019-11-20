@@ -78,15 +78,15 @@ body {
   transform: translateY(0);
 }
 
-/* .player:hover .progress {
+.player:hover .progress {
   height: 15px;
-} */
+}
 
 .player__controls > * {
   flex: 1;
 }
 
-/* .progress {
+.progress {
   flex: 10;
   position: relative;
   display: flex;
@@ -102,7 +102,7 @@ body {
   background: #ffc600;
   flex: 0;
   flex-basis: 50%;
-} */
+}
 
 /* unholy css to style input type="range" */
 
